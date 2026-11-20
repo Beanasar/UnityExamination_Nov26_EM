@@ -814,7 +814,7 @@ GameObject:
   - component: {fileID: 696123627}
   - component: {fileID: 696123626}
   m_Layer: 0
-  m_Name: water_0 (2)
+  m_Name: wind_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -891,7 +891,8 @@ Transform:
   m_LocalPosition: {x: 6.064, y: -0.031, z: 0}
   m_LocalScale: {x: 1, y: 3.5637, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 931159674}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.093}
 --- !u!1001 &813495687
@@ -969,7 +970,7 @@ GameObject:
   - component: {fileID: 931159672}
   - component: {fileID: 931159671}
   m_Layer: 0
-  m_Name: water_0 (1)
+  m_Name: wind_macanic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1106,12 +1107,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 931159670}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.009535106, w: 0.9999546}
-  m_LocalPosition: {x: 6.7, y: -0.022, z: 0}
-  m_LocalScale: {x: 1, y: 3.5637, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.63571244, y: 0.005928238, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 696123627}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.093}
 --- !u!1 &933757319
 GameObject:
@@ -1898,8 +1899,8 @@ Transform:
   m_GameObject: {fileID: 1442434295}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.88, y: -0.67, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 6.611, y: -0.484, z: 0}
+  m_LocalScale: {x: 0.4242062, y: 3.088319, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2287,11 +2288,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2019012180952958217, guid: b32bd49530ee612499702550dd725988, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.54
+      value: -8.13
       objectReference: {fileID: 0}
     - target: {fileID: 2019012180952958217, guid: b32bd49530ee612499702550dd725988, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.14
+      value: -2.12
       objectReference: {fileID: 0}
     - target: {fileID: 2019012180952958217, guid: b32bd49530ee612499702550dd725988, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2350,7 +2351,6 @@ SceneRoots:
   - {fileID: 205597436}
   - {fileID: 627822070}
   - {fileID: 1404924823}
-  - {fileID: 931159674}
   - {fileID: 696123627}
   - {fileID: 1442434298}
   - {fileID: 26478899}
